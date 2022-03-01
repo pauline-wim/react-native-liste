@@ -15,11 +15,13 @@ export default function CountryCard(props) {
 const styles = StyleSheet.create({
   country: {
     height: 200,
-    textAlign: "center",
-    paddingTop: 60,
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
   },
   countryFlag: {
-    display: "inline",
+    flexDirection: "row",
+    flexWrap: "wrap",
   },
   countryName: {
     fontSize: 20,
